@@ -32,6 +32,21 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'compass-rails', '~> 1.1.2'
+
+gem 'figaro'
+
+gem 'simple_form'
+
+gem 'zurb-foundation'
+
+group :development do
+	gem 'better_errors'
+	gem 'quiet_assets'
+	gem 'rails_layout'
+end
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
